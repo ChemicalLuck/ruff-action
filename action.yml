@@ -30,7 +30,7 @@ outputs:
   ruff-version:
     description: "The installed ruff version. Useful when using latest."
 runs:
-  using: "node20"
+  using: "node24"
   main: "dist/ruff-action/index.js"
 branding:
   icon: "code"
